@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shubham Catering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <script src="https://kit.fontawesome.com/348356cdb0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="top-navbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand-logo" href="index.html">
+                    <img class="logo" src="images/new-logo.png" alt="">
+                    <img class="dark-logo" src="images/dark-logo.png" alt="">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item desk">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item desk">
+                            <a class="nav-link" href="catering-events.html">Catering Events</a>
+                            <ul class="dropdown-content">
+                                <li><a href="corporate-events.html">Corporate Events</a></li>
+                                <li><a href="house-parties.html">House Parties</a></li>
+                                <li><a href="social-events.html">Social Events</a></li>
+                                <li><a href="wedding.html">Wedding</a></li>
+                                <li><a href="outdoor-events.html">Outdoor Events</a></li>
+                                <li><a href="sundowner-events.html">Sundowner Events</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item desk">
+                            <a class="nav-link" href="cuisine.html">Cuisine</a>
+                            <ul class="dropdown-content">
+                                <li><a href="veg-cuisine.html">Veg Cuisine</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <div class="toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="rightnav">
+        <div class="container-fluid">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/dark-logo.png" alt="logo">
+                </a>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <div class="nav-item">
+                            <a class="nav-link" href="about-us.html"> About US </a>
+
+                        </div>
+                        <div class="dropdown nav-item">
+                            <a class="btn dropdown-toggle nav-link" href="" data-bs-toggle="dropdown"
+                                aria-expanded="false">Catering Events</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="corporate-events.html">Corporate Events</a></li>
+                                <li><a class="dropdown-item" href="house-parties.html">House Parties</a></li>
+                                <li><a class="dropdown-item" href="social-events.html">Social Events</a></li>
+                                <li><a class="dropdown-item" href="wedding.html">Wedding</a></li>
+                                <li><a class="dropdown-item" href="outdoor-events.html">Outdoor Events</a></li>
+                                <li><a class="dropdown-item" href="sundowner-events.html">Sundowner Events</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="dropdown nav-item">
+                            <a class="btn dropdown-toggle nav-link" href="" data-bs-toggle="dropdown"
+                                aria-expanded="false">Cuisine</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="veg-cuisine.html">Veg Cuisine</a></li>
+                            </ul>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="inner-off-body">
+                    <p class="disc">
+                        Shubham Catering is your culinary partner for amazing occasions in Bangalore. We create dishes
+                        that leave a lasting impression on your guests with a passion for flavours and a commitment to
+                        perfection.
+                    </p>
+                    <div class="social-wrapper-two">
+                        <ul class="social-area">
+                            <li class="sal-animate"><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="sal-animate"><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            <li class="sal-animate"><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="sal-animate"><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="get-in-touch mt-5">
+                        <!-- title -->
+                        <div class="h6 title">Get In Touch</div>
+                        <!-- title End -->
+                        <div class="wrapper">
+                            <!-- single -->
+                            <div class="single">
+                                <i class="fa fa-phone"></i>
+                                <a href="tel:919896931723">+91-9008416673</a>
+                            </div>
+
+                            <!-- single ENd -->
+                            <!-- single -->
+                            <div class="single">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:shubhamcatering1970@gmail.com">shubhamcatering1970@gmail.com</a>
+                            </div>
+                            <!-- single ENd -->
+                            <!-- single -->
+                            <div class="single">
+                                <i class="fas fa-globe"></i>
+                                <a href="http://shubhamcatering.in/">www.shubhamcatering.in</a>
+                            </div>
+                            <!-- single ENd -->
+                            <!-- single -->
+                            <div class="single">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <a href="#">No 49/A, Behind Harsha High Spirits, Dasarahalli, Hebbal A Farm Post,
+                                    Bengaluru -560024</a>
+                            </div>
+                            <!-- single ENd -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="about_one"
+        style="background-image: url(images/background-img/catering-events-bg-img.webp); background-attachment: fixed;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="main_about">
+                        <div class="text_sec">
+                            <h2>Catering Events</h2>
+                        </div>
+                        <div class="breadcrumb__section">
+                            <ul>
+                                <li><a href="index.html"> <i class="fa-solid fa-arrow-left"></i>Home /</a></li>
+                                <li><a>Catering Events</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="category-item">
+        <div class="container">
+            <div class="main-heading">
+                <h6>Category</h6>
+                <h1>😃Enjoy your gathering with a variety of cuisines.😋</h1>
+            </div>
+            <div class="row">
+
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/corporate-party-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="corporate-events.html">Corporate Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/house-parties-catering-services.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="house-parties.html">House Parties</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/social-events-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="social-events.html">Social Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/wedding-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="wedding.html">Wedding</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/outdoor-party-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="outdoor-events.html">Outdoor Events</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/yacht-party-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="yacht-parties.html">Yacht Parties</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="category-box">
+                        <div class="category-img">
+                            <img src="images/category-item/sundowner-party-catering.webp" alt="">
+                        </div>
+                        <div class="category-heading">
+                            <a href="sundowner-events.html">Sundowner Events</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="catering-events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="catering-events-box">
+                        <h1>Corporate Events</h1>
+
+                        <p>
+                            At Shubham Catering, we understand the importance of corporate events. Whether you're hosting a conference, a product launch, a team-building session, or a high-profile board meeting, we are your trusted partner for creating exceptional corporate dining experiences.
+                        </p>
+
+                        <p>
+                            Our corporate event catering service is designed to meet the unique needs of businesses in Bangalore. We offer a diverse range of menus that cater to different tastes and dietary preferences, ensuring that every attendee is satisfied. From elegant plated dinners to buffet-style meals, we tailor our catering solutions to align seamlessly with your event's goals and theme.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="catering-events-img">
+                        <img src="images/services-img/img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="bg-img"></div>
+
+    <section class="catering-events">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="catering-events-img">
+                        <img src="images/services-img/wedding-event-img.jpeg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="catering-events-box">
+                        <h1>Weddings</h1>
+
+                        <p>
+                            At Shubham Catering, we believe that your wedding or special event deserves nothing less than perfection. Our dedicated team specializes in creating culinary experiences that are as unforgettable as the moments you're celebrating.
+                        </p>
+
+                        <p>
+                            A wedding is a beautiful union of love and commitment, and we're here to ensure that every aspect, especially the food, lives up to your dreams. Our wedding catering services are designed to reflect your unique style and preferences. From traditional Indian feasts to international cuisines, we craft menus that cater to diverse tastes. Our culinary artists use the finest ingredients and exquisite presentation to turn your wedding into a gastronomic journey.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-img"
+        style="background-image: url(images/background-img/catering-event-img2.webp); background-attachment: fixed;">
+    </div>
+
+
+    <section class="catering-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-detail">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d62191.15335775195!2d77.580267!3d13.0390402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae173f8815c747%3A0x2bb028e72211d36c!2sShubham%20catering!5e0!3m2!1sen!2sin!4v1695729894699!5m2!1sen!2sin"
+                            width="100%" height="580" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="ft-contact-page-form-wrapper headline">
+                        <h3 class="text-center">Get a Quote</h3>
+                        <form class="quote-form" action="process.php" method="post" enctype="multipart/form-data"
+                        name="form" onsubmit="return Form2_Validator(this)">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="S_name" id="S_name" placeholder="Your Name Here">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="S_phone" id="S_phone" placeholder="Phone Number">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="S_email" id="S_email" placeholder="Your Email">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="date" name="S_date" id="S_date" placeholder="Booking Date">
+                            </div>
+
+                            <div class="col-md-12">
+                                <select class="form-select" name="S_select" id="S_select"
+                                    aria-label="Default select example">
+                                    <option selected>Select Services</option>
+                                    <option value="Corporate Events">Corporate Events</option>
+                                    <option value="House Parties">House Parties</option>
+                                    <option value="Social Events">Social Events</option>
+                                    <option value="Wedding Events">Wedding Events</option>
+                                    <option value="Outdoor Events">Outdoor Events</option>
+                                    <option value="Yacht Parties">Yacht Parties</option>
+                                    <option value="Sundowner Events">Sundowner Events</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-12">
+                                <textarea name="message" id="message" placeholder="Your Massage"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button class="ft-sb-button" type="submit" id="submit1" value="Submit"
+                                    name="submit">Submit Now</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="tf__footer">
+        <div class="tf__footer_overlay">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-xl-3 col-md-8 col-lg-7">
+                        <div class="tf__footer_content">
+                            <a href="index.html" class="footer_logo">
+                                <img src="images/footer-logo.png" alt="" class="img-fluid w-100">
+                            </a>
+                            <p class="footer_description">Shubham Catering is your culinary partner for amazing
+                                occasions in Bangalore. We create dishes that leave a lasting impression on your guests
+                                with a passion for flavours and a commitment to perfection.</p>
+                            <ul class="social_link d-flex flex-wrap">
+                                <li><a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-5">
+                        <div class="tf__footer_content">
+                            <h3>Explore links</h3>
+                            <ul class="footer_link">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="catering-events.html">Catering Events</a></li>
+                                <li><a href="cuisine.html">Cuisine </a></li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact-us.html">Contact Us </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-5 order-lg-4">
+                        <div class="tf__footer_content">
+                            <h3>Our Services</h3>
+                            <ul class="footer_link">
+                                <li><a href="corporate-events.html">Corporate Events </a></li>
+                                <li><a href="house-parties.html">House Parties </a></li>
+                                <li><a href="social-events.html">Social Events </a></li>
+                                <li><a href="wedding.html">Weddings </a></li>
+                                <li><a href="outdoor-events.html">Outdoor Events </a></li>
+                                <li><a href="sundowner-events.html">Sundowner Events </a></li>
+                                <li><a href="yacht-parties.html">Yacht Parties </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-8 col-lg-5 order-xl-4">
+                        <div class="tf__footer_content tf__footer_location">
+                            <h3>Get in touch</h3>
+                            <p>
+                                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                <span>No 49/A, Behind Harsha High Spirits, Dasarahalli, Hebbal A Farm Post,
+                                    Bengaluru -560024</span>
+                            </p>
+                            <p>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <a href="tel:+919008416673">+91-9008416673</a>
+                            </p>
+
+                            <p>
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                                <span> shubhamcatering1970@gmail.com </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="tf__footer_bottom">
+
+                            <p>Shubham Catering © Copyright 2023 All rights Reserved | Design & Development By
+                                <a href="https://www.futuretouch.in/"> Future IT Touch</a>
+                            </p>
+                            <ul>
+                                <!-- <li><a href="privacy-policy.html">Privacy Policy </a></li> -->
+                                <!-- <li><a href="term-&-conditions.html"> Terms &amp; Conditions</a></li> -->
+                                <li><a href="contact-us.html">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="footer-share-kmy">
+        <div class="footer-share-button"> <a href="tel:+919008416673" class="query-form">Call Us</a><a
+                href="https://api.whatsapp.com/send?phone=919008416673&amp;text=Hi Mr. Shubham" class="whatsapp"><img
+                    src="images/whatsapp_logo.svg.png"></a></div>
+    </div>
+
+
+    <script src="css/main.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"></script>
+
+
+
+
+</body>
+
+</html>

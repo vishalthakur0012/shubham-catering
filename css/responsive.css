@@ -1,0 +1,101 @@
+@media only screen and (max-width: 767px) {
+
+    section.special-dish-list {
+        overflow: hidden;
+    }
+
+    section.client {
+        overflow: hidden;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .main-heading h1 {
+        font-size: 30px;
+    }
+
+    .brand {
+        margin: 10px;
+    }
+
+    .main_faq_p h2 {
+        font-size: 30px;
+    }
+
+    .text_sec h2 {
+        font-size: 25px;
+    }
+
+    .get-in-touch.mt-5 {
+        display: none;
+    }
+
+    .offcanvas-body {
+        display: block;
+    }
+
+    a.nav-link {
+        font-size: 22px;
+        color: #01392c;
+        font-weight: 500;
+        padding: 0 10px !important;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .dropdown.nav-item a {
+        box-shadow: none !important;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .offcanvas-body ul.navbar-nav .nav-item {
+        padding: 10px 0;
+    }
+
+    ul.dropdown-menu.show {
+        width: 100%;
+    }
+
+
+    .carousel-caption {
+        width: 65% !important;
+        top: 30% !important;
+        left: 30px !important;
+        transform: translateY(-50px) !important;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .carousel-caption p {
+        padding: 0px 10px;
+        font-size: 10px;
+        letter-spacing: 0.8px;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 20px;
+        background-color: #ffb233;
+        color: #000;
+        border-radius: 10px;
+        font-size: 15px;
+        margin-left: -125px;
+        font-weight: 600;
+    }
+
+    .footer-share-kmy {
+        display: block;
+    }
+
+
+
+
+}
